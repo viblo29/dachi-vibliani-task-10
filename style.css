@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "DM Serif Display", serif; */
+  /* font-family: "Karla", sans-serif; */
+}
+
+body {
+  background-color: white;
+  overflow: scroll;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* overflow-x: hidden; */
+}
+
+.header {
+  font-family: "Karla", sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  z-index: 120;
+  padding-left: 12%;
+  padding-right: 22.5%;
+
+}
+
+.headerleft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #837d88;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  gap: 10%;
+  white-space: nowrap;
+}
+
+.btn:hover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    gap: 10%;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.btn1   {
+    border: 1.5px solid #2C2830; 
+    padding-top: 3.5%; padding-bottom: 3.5%; padding-left: 7%; padding-right: 7%; 
+    color: #2C2830; 
+    display: flex; justify-content: center; align-items: center;
+}
+
+.btn1:hover{
+    border: 1.5px solid #2C2830;
+    background: #2C2830;    
+    padding-top: 3.5%; padding-bottom: 3.5%; padding-left: 7%; padding-right: 7%; 
+    color: white; 
+    display: flex; justify-content: center; align-items: center;
+    cursor: pointer;
+}
+
+.first {
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d2641;
+  height: 90%;
+  width: 100%;
+  padding-top: 11%;
+}
+
+.first-left {
+    z-index: 110;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding-left: 12%;
+  padding-bottom: 6%;
+  gap: 1%;
+}
+
+.rectangle1 {
+  background-color: white;
+  width: 26%;
+  height: 1px;
+}
+
+.first-txt1 {
+  color: #fff;
+  font-family: "DM Serif Display";
+  font-size: 72px;
+  line-height: 64px; /* 88.889% */
+  letter-spacing: -1px;
+}
+
+.first-txt2 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 162.5%;
+  font-family: "Karla", sans-serif;
+}
+
+.first-txt3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border: 1.5px solid white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-txt3:hover {
+    background: white;
+  color: black;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border: 1.5px solid white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.first-right {
+  z-index: 1;
+  position: relative;
+  width: 50%;
+  height: 100%;
+  padding-right: 8%;
+}
+
+.img1 {
+  z-index: 2;
+  width: 110%;
+  height: 130%;
+}
+
+.img2 {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.img3 {
+  top: 65%;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.space {
+  width: 100%;
+  height: 40%;
+}
+
+.rectangle2 {
+  position: relative;
+  left: 12%;
+  background: #c396c6;
+  height: 1px;
+  width: 10%;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 5%;
+  height: 50%;
+}
+
+.second-txt1 {
+  height: 50%;
+  color: #2c2830;
+  font-family: "DM Serif Display", serif;
+  font-size: 72px;
+  line-height: 64px; /* 88.889% */
+  letter-spacing: -1px;
+  padding-bottom: 15%;
+}
+
+.second-down {
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  gap: 4%;
+}
+
+.scnd-dwn-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 50%;
+  height: 50%;
+}
+
+.scnd-dwn-txts{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 40%;
+}
+
+.scnd-dwn-txt1 {
+  color: #2c2830;
+  font-family: "DM Serif Display", serif;
+  font-size: 28px;
+  letter-spacing: -0.389px;
+}
+
+.scnd-dwn-txt2 {
+    color: #837D88;
+  font-family: "Karla", sans-serif;
+font-size: 16px;
+line-height: 26px; /* 162.5% */
+}
+
+.space-2{
+    width: 100%;
+    height: 40%;
+}
+
+.third{
+    width: 100%;
+    height: 35%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.third-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #2D2641;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-top: 5%; padding-bottom: 5%;
+    overflow: hidden;
+}
+.third-txt11{
+    width: 50%;
+    height: auto;
+}
+
+.third-txt1{
+    color: #FFF;
+  font-family: "DM Serif Display", serif;
+font-size: 56px;
+line-height: 56px; /* 100% */
+letter-spacing: -0.778px;
+}
+
+.third-txt22{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.third-txt2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 110;
+    color: #FFF;
+text-align: center;
+  font-family: "Karla", sans-serif;
+  font-size: 13px;
+font-weight: 700;
+letter-spacing: 1.5px;
+border: 1.5px solid #FFF;
+padding-top: 4%; padding-bottom: 4%; padding-left: 7%; padding-right: 7%;
+}
+
+.third-txt2:hover{
+    color: black;
+    background: white;
+border: 1.5px solid #FFF;
+cursor: pointer;
+}
+
+.img4{
+    position: absolute;
+    top: -52%;
+}
+
+.img4box{
+    display: flex;  
+    justify-content: end;
+    align-items: center;
+}
+
+.space-3{
+    width: 100%;
+    height: 20%;
+}
+
+.bottom{
+    z-index: 110;
+    height: auto;
+    width: 100%;
+    background: #FAFAFA;
+}
+
+.bottom-content{
+    position: relative;
+    z-index: 2;
+    padding-left: 12%; padding-right: 12%;
+    padding-top: 5%; padding-bottom: 5%;
+}
+
+.header-in-btm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding-right: 5%;
+}
+
+.btnn1:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.btnn2:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1aa1f1;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.btnn3:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e71623;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.btnn4:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fb6748;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.rectangle3{
+    background: #DADADA;
+    position: relative;
+    width: 100%;
+    height: 1px;
+}
+
+.btm-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 16%;
+    z-index: 10;
+}
+
+.btm-txt-box{
+    height: 100%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2rem;
+}
+
+
+.btm-txt-1{
+    color: #837D88;
+  font-family: "Karla", sans-serif;
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 1.5px;
+}
+
+.btm-txt-2{
+    color: #2D2641;
+    font-family: "Karla", sans-serif;
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 1.5px;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.img5{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
